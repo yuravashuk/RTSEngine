@@ -13,10 +13,37 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{db59c7a7-aadc-4992-9470-f17016bc3358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RTS">
+      <UniqueIdentifier>{abc65343-d5d8-4a07-ad5e-ffd3bef68672}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlavUnits.hpp">
+      <Filter>Header Files\RTS</Filter>
+    </ClInclude>
+    <ClInclude Include="JapaneUnits.hpp">
+      <Filter>Header Files\RTS</Filter>
+    </ClInclude>
+    <ClInclude Include="MineryBuilding.hpp">
+      <Filter>Header Files\RTS</Filter>
+    </ClInclude>
+    <ClInclude Include="MilitaryAcademyBuilding.hpp">
+      <Filter>Header Files\RTS</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBuilding.hpp">
+      <Filter>Header Files\RTS</Filter>
+    </ClInclude>
+    <ClInclude Include="RTEngine.hpp">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.hpp">
+      <Filter>Header Files\RTS</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -25,6 +52,9 @@
     </ClCompile>
     <ClCompile Include="RTSEngine.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTEngine.cxx">
+      <Filter>Header Files\Engine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

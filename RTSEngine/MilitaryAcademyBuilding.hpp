@@ -1,0 +1,9 @@
+
+#pragma once
+
+#ifndef _MILITARY_ACADEMY_BUILDING_HPP_
+#define _MILITARY_ACADEMY_BUILDING_HPP_
+
+
+
+#endif //_MILITARY_ACADEMY_BUILDING_HPP_
